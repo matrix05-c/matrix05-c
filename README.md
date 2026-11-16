@@ -1,4 +1,8 @@
-# 🗄️ `SELECT * FROM developpeurs WHERE handle = 'matrix05-c';`
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3500&pause=1200&color=B48EE0&center=true&vCenter=true&multiline=true&width=720&height=80&lines=SELECT+*+FROM+developpeurs;WHERE+handle+%3D+'matrix05-c'%3B" alt="Requête SQL animée" />
+
+</div>
 
 | nom | role | ecole | ville |
 |---|---|---|---|
@@ -11,6 +15,13 @@
 
 ## 📐 Modèle conceptuel
 
+<p align="center">
+  <img src="./assets/mcd.svg" alt="Modèle conceptuel animé : Caddy maîtrise des langages, réalise des projets, suit une formation et apprend Elixir" width="100%" />
+</p>
+
+<details>
+<summary>Voir le même modèle en Mermaid</summary>
+
 ```mermaid
 erDiagram
     CADDY ||--o{ LANGAGE : maitrise
@@ -19,31 +30,9 @@ erDiagram
     PROJET }o--o{ LANGAGE : utilise
     PROJET }o--o{ BASE_DE_DONNEES : stocke_dans
     CADDY ||--o{ APPRENTISSAGE : explore
-
-    CADDY {
-        string nom "Caddy Rasolonjatovo"
-        string role "Software Dev & Data Analyst"
-        string ville "Fianarantsoa"
-    }
-    LANGAGE {
-        string nom "Java, PHP, JS, C#, Python, R"
-    }
-    BASE_DE_DONNEES {
-        string sgbd "MySQL, PostgreSQL, Oracle"
-    }
-    FORMATION {
-        string diplome "Licence Génie Logiciel et BD"
-        string ecole "ENI Fianarantsoa"
-    }
-    APPRENTISSAGE {
-        string langage "Elixir"
-        string sujets "OTP, BEAM, Phoenix"
-    }
-    PROJET {
-        string nom
-        string stack
-    }
 ```
+
+</details>
 
 ## 🧩 Table `competences`
 
@@ -64,6 +53,10 @@ GROUP BY categorie;
 | modelisation | Merise, UML |
 | outils | Git, GitHub, Docker, Postman, VS Code |
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,elixir,java,php,python,r,laravel,spring,vue,docker" alt="Stack" />
+</p>
+
 ## 📁 Table `projets`
 
 ```sql
@@ -82,13 +75,7 @@ SELECT nom, type, stack FROM projets ORDER BY id;
 
 ## 🔄 Transaction en cours
 
-```sql
-BEGIN;
-  INSERT INTO competences (categorie, outil, niveau)
-  VALUES ('langages', 'Elixir', 'en apprentissage');
-  -- programmation fonctionnelle, processus légers, supervision OTP
-COMMIT; -- bientôt 🚀
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=2200&pause=600&color=E48AC6&multiline=true&width=720&height=110&lines=BEGIN%3B;++INSERT+INTO+competences+(categorie%2C+outil%2C+niveau);++VALUES+('langages'%2C+'Elixir'%2C+'en+apprentissage')%3B;COMMIT%3B+--+bient%C3%B4t+%F0%9F%9A%80" alt="Transaction SQL animée" />
 
 ## 📬 `contact`
 
