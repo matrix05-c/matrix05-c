@@ -1,10 +1,6 @@
-```console
-caddy@fianarantsoa:~$ iex
-Erlang/OTP 27 [erts-15.0] [source] [64-bit] [smp:8:8]
-
-Interactive Elixir - press Ctrl+C to exit
-iex(1)> Caddy.whoami()
-```
+<p align="center">
+  <img src="./assets/terminal.svg" alt="Animated IEx session: Caddy, Software Developer and Data Analyst from Fianarantsoa, learning Elixir" width="100%" />
+</p>
 
 ## Hey, I'm Caddy 👋
 
@@ -14,23 +10,23 @@ Third-year student in Software Engineering and Database Systems at ENI Fianarant
 I care about what happens *behind the interface*: the logic, the structure and the mechanisms that make a system work. Good design over complexity, simple over clever.
 
 ```console
-iex(2)> Caddy.skills() |> Enum.group_by(& &1.area)
+iex> Caddy.skills() |> Enum.group_by(& &1.area)
 ```
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=elixir,java,php,js,cs,python,r,spring,laravel,nodejs,vue,react,bootstrap,tailwind,mysql,postgres,git,github,docker,postman,vscode&perline=11" />
+    <img src="https://skillicons.dev/icons?i=elixir,java,php,js,cs,python,r,spring,laravel,nodejs,vue,react,bootstrap,tailwind,mysql,postgres,git,github,docker,postman,vscode&perline=11" alt="Skills" />
   </a>
 </p>
 
 ```console
-iex(3)> Caddy.experience() |> List.first()
+iex> Caddy.experience() |> List.first()
 %{role: "Full-stack developer (intern)", company: "JIRAMA", city: "Antsirabe",
   from: ~D[2025-09-01], to: ~D[2025-12-31], stack: [:laravel, :vue, :mysql]}
 ```
 
 ```console
-iex(4)> Caddy.projects() |> Enum.take(4)
+iex> Caddy.projects() |> Enum.take(4)
 ```
 
 <table>
@@ -61,17 +57,13 @@ iex(4)> Caddy.projects() |> Enum.take(4)
 </table>
 
 ```console
-iex(5)> Caddy.learning()
-{:ok, ["Elixir", "OTP & supervision trees", "Phoenix"]}
-
-iex(6)> Caddy.contact()
+iex> Caddy.contact()
 ```
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=1800&pause=1500&color=9FE3A8&vCenter=true&width=520&height=24&lines=%25%7Bportfolio%3A+%22caddy.is-a.dev%22%2C+...%7D" alt="Typing contact map" />
 
 [![Portfolio](https://img.shields.io/badge/-caddy.is--a.dev-4B275F?style=flat-square&logo=elixir&logoColor=white)](https://caddy.is-a.dev)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caddy-rasolonjatovo-46426b35b)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:caddyrasolonjatovo@gmail.com)
 
-```console
-iex(7)> System.halt()
-caddy@fianarantsoa:~$ █
-```
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1625,100:4B275F&height=40&section=footer&text=System.halt()&fontSize=16&fontColor=b48ee0&animation=blinking" width="100%" alt="" />
