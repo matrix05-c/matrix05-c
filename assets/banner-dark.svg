@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="170" viewBox="0 0 800 170" role="img" aria-label="Caddy Rasolonjatovo, développeur logiciel et data analyst">
+<title>Caddy Rasolonjatovo — Développeur logiciel &amp; Data Analyst</title>
+<style>
+:root{--fg:#ece6f5;--mut:#a89bbd;--acc:#b48ee0}
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.n{fill:var(--fg);font-size:46px;font-weight:700;letter-spacing:-1px}
+.n tspan{opacity:0;animation:up .7s cubic-bezier(.2,.8,.2,1) forwards}
+.s{fill:var(--mut);font-size:18px;opacity:0;animation:fade .8s 1.2s forwards}
+.u{stroke:url(#g);stroke-width:4;stroke-linecap:round;stroke-dasharray:420;stroke-dashoffset:420;animation:draw 1.2s .9s cubic-bezier(.6,0,.2,1) forwards}
+.d{fill:var(--acc);animation:fall 2.8s 2s ease-in-out infinite;opacity:0}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes fade{to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fall{0%{opacity:0;transform:translateY(-8px)}20%,70%{opacity:1;transform:none}100%{opacity:0;transform:translateY(6px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}.n tspan,.s,.d{opacity:1}.u{stroke-dashoffset:0}}
+</style>
+<defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="190" y1="0" x2="610" y2="0"><stop offset="0" stop-color="#7b4fb0"/><stop offset="1" stop-color="#e48ac6"/></linearGradient></defs>
+<text x="400" y="78" text-anchor="middle" class="n"><tspan style="animation-delay:0.00s">C</tspan><tspan style="animation-delay:0.05s">a</tspan><tspan style="animation-delay:0.10s">d</tspan><tspan style="animation-delay:0.15s">d</tspan><tspan style="animation-delay:0.20s">y</tspan><tspan style="animation-delay:0.25s">&#160;</tspan><tspan style="animation-delay:0.30s">R</tspan><tspan style="animation-delay:0.35s">a</tspan><tspan style="animation-delay:0.40s">s</tspan><tspan style="animation-delay:0.45s">o</tspan><tspan style="animation-delay:0.50s">l</tspan><tspan style="animation-delay:0.55s">o</tspan><tspan style="animation-delay:0.60s">n</tspan><tspan style="animation-delay:0.65s">j</tspan><tspan style="animation-delay:0.70s">a</tspan><tspan style="animation-delay:0.75s">t</tspan><tspan style="animation-delay:0.80s">o</tspan><tspan style="animation-delay:0.85s">v</tspan><tspan style="animation-delay:0.90s">o</tspan></text>
+<path class="u" d="M190 100H610"/>
+<text x="400" y="138" text-anchor="middle" class="s">Développeur logiciel · Data Analyst · Fianarantsoa, Madagascar</text>
+<path class="d" d="M622 88c0 0-7 9-7 14a7 7 0 0 0 14 0c0-5-7-14-7-14z"/>
+</svg>
