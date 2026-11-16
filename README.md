@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
-  <img src="./assets/banner-light.svg" alt="Caddy Rasolonjatovo — Développeur logiciel & Data Analyst" width="100%">
+  <img src="./assets/banner-light.svg" alt="Caddy Rasolonjatovo — Développeur full stack & Data Analyst" width="100%">
 </picture>
 
 <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&duration=3200&pause=900&color=8B63C4&center=true&vCenter=true&width=520&height=32&lines=Backend+%C2%B7+bases+de+donn%C3%A9es+%C2%B7+analyse+de+donn%C3%A9es;Comprendre+avant+de+construire.;En+ce+moment+%3A+j'apprends+Elixir+%F0%9F%92%A7" alt="Texte animé" />
