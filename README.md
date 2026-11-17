@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/terminal.svg" alt="Animated IEx session: Caddy, Software Developer and Data Analyst from Fianarantsoa, learning Elixir" width="100%" />
+  <img src="./assets/terminal.svg" alt="Animated IEx session: Caddy, Software Developer and Data Analyst from Fianarantsoa," width="100%" />
 </p>
 
 ## Hey, I'm Caddy 👋
@@ -13,10 +13,8 @@ I care about what happens *behind the interface*: the logic, the structure and t
 iex> Caddy.skills() |> Enum.group_by(& &1.area)
 ```
 
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=elixir,java,php,js,cs,python,r,spring,laravel,nodejs,vue,react,bootstrap,tailwind,mysql,postgres,git,github,docker,postman,vscode&perline=11" alt="Skills" />
-  </a>
+<p align="center">
+  <img src="./assets/tech-marquee.svg" alt="Elixir, Java, PHP, JavaScript, C#, Python, R, Spring, Laravel, Node.js, Vue.js, React, Bootstrap, Tailwind, MySQL, PostgreSQL, Git, GitHub, Docker, Postman, VS Code" width="100%" />
 </p>
 
 ```console
