@@ -64,4 +64,14 @@ iex> Caddy.contact()
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caddy-rasolonjatovo-46426b35b)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:caddyrasolonjatovo@gmail.com)
 
+```console
+iex> Caddy.contributions() |> Snake.eat()
+```
+
+<!-- Generated every 12 h by .github/workflows/snake.yml into the "output" branch -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/matrix05-c/matrix05-c/output/github-snake-dark.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/matrix05-c/matrix05-c/output/github-snake.svg" width="100%" />
+</picture>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1625,100:4B275F&height=40&section=footer&text=System.halt()&fontSize=16&fontColor=b48ee0&animation=blinking" width="100%" alt="" />
